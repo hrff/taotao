@@ -1,0 +1,23 @@
+package com.hrf.service.impl;
+
+import java.util.Date;
+import java.util.List;
+
+@Service
+public class ItemServiceImpl implements ItemService {
+
+    @Autowired
+    private TbItemMapper itemMapper;
+   
+
+
+    @Override
+    public TbItem getItemById(long id) {
+      
+        TbItem item = itemMapper.selectByPrimaryKey(id);
+      
+        return item;
+    }
+
+   
+}

@@ -1,0 +1,5 @@
+package com.taobao.service.impl;
+
+public class ItemServiceImpl {
+
+}

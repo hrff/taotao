@@ -1,0 +1,47 @@
+package com.hrf.service.impl;
+
+import cn.bluegod.common.Jedis.JedisClient;
+import cn.bluegod.common.pojo.EasyUIDataGridResult;
+import cn.bluegod.common.util.E3Result;
+import cn.bluegod.common.util.IDUtils;
+import cn.bluegod.common.util.JsonUtils;
+import cn.bluegod.mapper.TbItemDescMapper;
+import cn.bluegod.mapper.TbItemMapper;
+
+import cn.bluegod.pojo.TbItem;
+import cn.bluegod.pojo.TbItemDesc;
+import cn.bluegod.pojo.TbItemDescExample;
+import cn.bluegod.pojo.TbItemExample;
+import cn.bluegod.service.ItemService;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
+import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.jms.core.JmsTemplate;
+import org.springframework.jms.core.MessageCreator;
+import org.springframework.stereotype.Service;
+
+import javax.annotation.Resource;
+import javax.jms.*;
+import java.util.Date;
+import java.util.List;
+
+@Service
+public class ItemServiceImpl implements ItemService {
+
+    @Autowired
+    private TbItemMapper itemMapper;
+   
+
+
+    @Override
+    public TbItem getItemById(long id) {
+      
+        TbItem item = itemMapper.selectByPrimaryKey(id);
+      
+        return item;
+    }
+
+   
+}
