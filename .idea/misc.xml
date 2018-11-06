@@ -41,17 +41,29 @@
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/taotao-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/taotao-manager/taotao-manager-service" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" default="true" assert-keyword="false" jdk-15="false" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/taotao-common/target/classes/META-INF/maven/com.taotao/taotao-common/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao-common/target/classes/META-INF/maven/com.taotao/taotao-common/pom.properties" />
+        <option value="$PROJECT_DIR$/taotao-common/target/maven-archiver/pom.properties" />
+        <option value="$PROJECT_DIR$/taotao-common/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao-manager/taotao-manager-service/target/m2e-wtp/web-resources/META-INF/maven/com.taotao/taotao-manager-service/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao-manager/taotao-manager-service/target/m2e-wtp/web-resources/META-INF/maven/com.taotao/taotao-manager-service/pom.properties" />
+        <option value="$PROJECT_DIR$/taotao-manager/taotao-manager-service/target/maven-archiver/pom.properties" />
+        <option value="$PROJECT_DIR$/taotao-manager-web/target/m2e-wtp/web-resources/META-INF/maven/com.taotao/taotao-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao-manager-web/target/m2e-wtp/web-resources/META-INF/maven/com.taotao/taotao-manager-web/pom.properties" />
+        <option value="$PROJECT_DIR$/taotao-manager-web/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" default="true" />
   <component name="masterDetails">
     <states>
       <state key="ProjectJDKs.UI">
