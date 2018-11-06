@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/taotao-common/target/maven-archiver/maven-archiver (1).iml" filepath="$PROJECT_DIR$/taotao-common/target/maven-archiver/maven-archiver (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-manager/taotao-manager-service/target/maven-archiver/maven-archiver (2).iml" filepath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/target/maven-archiver/maven-archiver (2).iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/taotao.iml" filepath="$PROJECT_DIR$/.idea/taotao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-common/taotao-common (1).iml" filepath="$PROJECT_DIR$/taotao-common/taotao-common (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-common/target/classes/META-INF/maven/com.taotao/taotao-common/taotao-common (2).iml" filepath="$PROJECT_DIR$/taotao-common/target/classes/META-INF/maven/com.taotao/taotao-common/taotao-common (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-common/target/classes/META-INF/maven/com.taotao/taotao-common/taotao-common (3).iml" filepath="$PROJECT_DIR$/taotao-common/target/classes/META-INF/maven/com.taotao/taotao-common/taotao-common (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-manager/taotao-manager.iml" filepath="$PROJECT_DIR$/taotao-manager/taotao-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-manager/taotao-manager-dao/taotao-manager-dao.iml" filepath="$PROJECT_DIR$/taotao-manager/taotao-manager-dao/taotao-manager-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-manager/taotao-manager-interface/taotao-manager-interface.iml" filepath="$PROJECT_DIR$/taotao-manager/taotao-manager-interface/taotao-manager-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/taotao-manager-pojo.iml" filepath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/taotao-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-manager/taotao-manager-service/taotao-manager-service (1).iml" filepath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/taotao-manager-service (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-manager/taotao-manager-service/target/m2e-wtp/web-resources/META-INF/maven/com.taotao/taotao-manager-service/taotao-manager-service (2).iml" filepath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/target/m2e-wtp/web-resources/META-INF/maven/com.taotao/taotao-manager-service/taotao-manager-service (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-manager/taotao-manager-service/target/m2e-wtp/web-resources/META-INF/maven/com.taotao/taotao-manager-service/taotao-manager-service (3).iml" filepath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/target/m2e-wtp/web-resources/META-INF/maven/com.taotao/taotao-manager-service/taotao-manager-service (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-manager-web/taotao-manager-web (1).iml" filepath="$PROJECT_DIR$/taotao-manager-web/taotao-manager-web (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-manager-web/target/m2e-wtp/web-resources/META-INF/maven/com.taotao/taotao-manager-web/taotao-manager-web (2).iml" filepath="$PROJECT_DIR$/taotao-manager-web/target/m2e-wtp/web-resources/META-INF/maven/com.taotao/taotao-manager-web/taotao-manager-web (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-manager-web/target/m2e-wtp/web-resources/META-INF/maven/com.taotao/taotao-manager-web/taotao-manager-web (3).iml" filepath="$PROJECT_DIR$/taotao-manager-web/target/m2e-wtp/web-resources/META-INF/maven/com.taotao/taotao-manager-web/taotao-manager-web (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-parent/taotao-parent.iml" filepath="$PROJECT_DIR$/taotao-parent/taotao-parent.iml" />
     </modules>
   </component>
 </project>
